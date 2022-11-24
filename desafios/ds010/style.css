@@ -1,0 +1,148 @@
+@font-face {
+    font-family:'idroid';
+    src: local(idroid), url('../ds010/fontes/idroid.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;700&display=swap');
+
+/* Tipos de format()
+    - opentype(otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-att (apple advanced typography)
+    - svg
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #84e1ad;;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ====================== CONFIGS. GLOBAIS ================== */
+
+header{
+    background-image: linear-gradient(to bottom, #21df76,#15422a);
+}
+
+h1{
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding:20px
+}
+
+header>p{
+    text-align: center;
+    width: 41%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+nav{
+    padding: 10px;
+
+}
+        nav>a{
+            color: #fff;
+            margin: 10px;
+        }
+
+        nav>a:hover{
+            text-decoration: underline;
+            color: #e0e0e0;
+        }
+
+main{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #fff;
+}
+        article{
+            
+        }
+
+        img{
+            display: flex;
+            margin: 4px auto;
+            width: 100%;
+        }
+
+        #img3{
+            width: 50%;
+        }
+
+        h2 {
+            font-family: 'idroid';
+            padding: 10px 0;
+        }
+
+        p{
+            text-indent: 20px;
+            padding: 10px 0;
+        }
+
+        .h2-degrade{
+            background-image: linear-gradient(to right, #21df77ad, #fff);
+            padding: 0 10px;
+        }
+
+        iframe{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:0 auto;
+            max-width: 1080px;
+            width: 100%;
+        }
+
+footer{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+        .footer-container{
+            border-radius: 10px;
+            background-color: #b5ffd6;
+        }
+
+        h3{
+            padding: 10px;
+            background-color: #09bd5a;
+            border-radius: 10px 10px 0 0;
+            color: #fff;
+        }
+
+        aside{
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+        footer>div>p{
+            padding: 10px;
+        }
+
+#end-line{
+    background-color: #15422a;
+    color: #fff;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
