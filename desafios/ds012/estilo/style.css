@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+        
+        :root{
+            --font01: 'Passion One', cursive;
+            --font02: 'Sriracha', cursive;
+
+            --body-width-dsk:70vw;
+        }
+
+        body{
+            width: var(--body-width-dsk);
+            margin: 0 auto;
+            padding-bottom: 2em;
+            background-color: aquamarine;
+        }
+
+        header{
+            background-color: black;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 10em;
+            justify-content: center;
+
+            color: #fff;
+            font-family: var(--font01);
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        header > h1, p, a{
+            color: #fff;            
+            margin: 0 auto;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        header p> a:hover{
+            text-decoration: underline;
+            color: aquamarine;
+            text-decoration-color: aquamarine;
+        }
+
+        header h1{
+            font-size: 3em;
+        }
+        header p{
+            font-size: 1.2em;
+        }
+
+        section{
+            width: 100%;
+            padding: 0;
+            margin: 0 auto;
+        }
+        
+        .art-box {
+            background-color: #fff;
+            width: 100%;
+        }
+        .art-box > p, .box-txt{
+            color: #000;
+            font-family: var(--font02);
+            font-size: 1.4em;
+            padding: 2em;
+            word-break: keep-all;
+            width: fit-content;
+            margin: 0;
+        }
+
+        #b2, #b4 {
+            background: #000 url('../imagens/background001.jpg') center center no-repeat fixed;
+            background-size: auto;
+        }
+
+        .glass-box{
+            display: flex;
+            height: fit-content;
+            padding: 1em;
+        }
+
+        .art-box>div>p{
+            background-color: #0000005e;
+            color: #fff;
+
+            padding: 2em;
+        }
+        #b4{
+            background-image: url('../imagens/background002.jpg')
+        }
+
+        footer{
+            width: var(--body-width-dsk);
+            margin: 0 auto;
+
+            background-color: #000;
+        }
+
+        footer p{
+            padding: 10px;
+            margin: 0;
+
+            font-family: var(--font02);
+        }
+
+        @media only screen and (max-width: 478px){body,footer{width: 100vw;}.art-box>div>p{padding: 1em;}}
