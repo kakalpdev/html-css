@@ -27,9 +27,11 @@
             border: 1px solid black;
             padding: 10px;
         }
-        .grey{
-            background-color: rgba(128, 128, 128, 0.253);
+        
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
         }
+
     </style>
 </head>
 <body>
@@ -43,7 +45,7 @@
     </table>
     <table>
         <tbody>
-            <tr class="grey">
+            <tr>
                 <td>
                     a1
                 </td>
@@ -65,7 +67,7 @@
                     c2
                 </td>
             </tr>
-            <tr class="grey">
+            <tr>
                 <td>
                     a3
                 </td>
@@ -74,6 +76,17 @@
                 </td>
                 <td>
                     c3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    a4
+                </td>
+                <td>
+                    b4
+                </td>
+                <td>
+                    c4
                 </td>
             </tr>
         </tbody>
